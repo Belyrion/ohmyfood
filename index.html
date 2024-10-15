@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
-   <title></title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-   <h1>Un super titre !</h1>
-</body>
+<html lang="fr">
+	<head>
+		<title>Ohmyfood</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@300;500;700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="#" type="image/x-icon">
+		<link rel="stylesheet" href="assets/styles.css" />
+	</head>
+   <body>
+      <!-- Header avec le logo et la localisation -->
+      <header class="header">
+         <img src="assets/images/logo/ohmyfood.png" alt="ohmyfood" class="logo">
+         <p class="location"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
+      </header>
+      <main>
+         <!-- Section d'introduction -->
+         <section class="intro">
+            <h2 class="intro-title">Réservez le menu qui vous convient</h2>
+            <p class="intro-description">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+            <button class="intro-button">Explorer nos restaurants</button>
+         </section>
+         <!-- Section de fonctionnement -->
+         <section class="how-it-works">
+            <h2 class="how-it-works-title">Fonctionnement</h2>
+               <ol class="steps">
+                  <li class="step">
+                     <span class="step-number">1</span> Choisissez un restaurant
+                  </li>
+                  <li class="step">
+                     <span class="step-number">2</span> Composez votre menu
+                  </li>
+                  <li class="step">
+                     <span class="step-number">3</span> Dégustez au restaurant
+                  </li>
+               </ol>
+         </section>
+         <!-- Section des restaurants -->
+         <section class="restaurants">
+            <h2 class="restaurants-title">Restaurants</h2>
+
+            <!-- Restaurant 1 -->
+            <article class="restaurant">
+               <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="restaurant-image">
+               <h3 class="restaurant-name">La palette du goût</h3>
+               <p class="restaurant-location">Ménilmontant</p>
+            </article>
+
+            <!-- Restaurant 2 -->
+            <article class="restaurant">
+               <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="restaurant-image">
+               <h3 class="restaurant-name">La note enchantée</h3>
+               <p class="restaurant-location">Charonne</p>
+            </article>
+
+            <!-- Restaurant 3 -->
+            <article class="restaurant">
+               <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" class="restaurant-image">
+               <h3 class="restaurant-name">À la française</h3>
+               <p class="restaurant-location">Cité Rouge</p>
+            </article>
+
+            <!-- Restaurant 4 -->
+            <article class="restaurant">
+               <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="restaurant-image">
+               <h3 class="restaurant-name">Le délice des sens</h3>
+               <p class="restaurant-location">Folie-Méricourt</p>
+            </article>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+         <img src="assets/images/logo/ohmyfood.png" alt="ohmyfood">
+         <ul>
+            <li>Proposer un restaurant</li>
+            <li>Devenir partenaire</li>
+            <li>Mentions légales</li>
+            <li>Contact</li>
+         </ul>
+      </footer>
+   </body>
 </html>
