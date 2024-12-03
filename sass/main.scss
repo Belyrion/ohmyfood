@@ -1,0 +1,15 @@
+// Import des variables et des styles globaux
+@import 'base/variables';
+@import 'base/global';
+@import 'base/responsive';
+
+// Import des composants
+@import 'components/menu';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/restaurants';
+
+// Import des layouts
+@import 'layout/intro';
+@import 'layout/how-it-works';
